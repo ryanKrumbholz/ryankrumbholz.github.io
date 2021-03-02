@@ -28,7 +28,7 @@
 			$(formMessages).removeClass('success');
 			$(formMessages).addClass('error');
 			if (data.responseText !== '') {
-				$(formMessages).text(data.responseText);
+				$(formMessages).text('Error');
 			} else {
 				$(formMessages).text('Oops! An error occured and your message could not be sent.');
 			}

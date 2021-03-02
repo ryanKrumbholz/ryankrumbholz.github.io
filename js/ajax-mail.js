@@ -21,7 +21,7 @@
 		.done(function(response) {
 			$(formMessages).removeClass('error');
 			$(formMessages).addClass('success');
-			$(formMessages).text(response);
+			$(formMessages).text('Sent');
 			$('#contact-form input,#contact-form textarea').val('');
 		})
 		.fail(function(data) {

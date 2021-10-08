@@ -1,0 +1,128 @@
+body {
+    background-color: #30475E;
+    color: #FFFFFF;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    font-family: "raleway";
+}
+
+p, a, li {
+    font-family: "lato";
+}
+
+.head {
+    display: flex;
+    margin-bottom: 5ch;
+}
+
+#name {
+    margin-left: 3ch;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#name h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#name h3 {
+    color: #EBEBEB;
+    margin-top: 0;
+}
+
+
+#nav {
+    display: flex;
+    margin-left: auto;
+    margin-right: 3ch;
+}
+
+#nav li {
+    list-style: none;
+}
+
+.nav-link {
+    margin-right: 2ch;
+}
+
+.sections {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25vw;
+    margin-right: 25vw;
+}
+
+.section {
+    margin-bottom: 3ch;
+}
+
+.section h1 {
+    border-bottom: solid 1px;
+}
+
+#about h2{
+    margin-bottom: 0;
+}
+
+#skills {
+    display: flex;
+}
+
+.skills h2 {
+    margin-top: 0;
+}
+
+.skill-type {
+
+}
+
+.experience {
+    grid-area: experience;
+}
+
+
+.experience-title-date {
+    display: flex;
+    color: #EBEBEB;
+}
+
+.experience-title-date p{
+    margin-left: auto;
+}
+
+.experience-title-date p, h3{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.project {
+    grid-area: project;
+
+}
+
+.project-title-date {
+    display: flex;
+    color: #EBEBEB;
+}
+
+.project-title-date p{
+    margin-left: auto;
+}
+
+.project-title-date p, h3{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.footer {
+    text-align: center;
+    margin: auto;
+}

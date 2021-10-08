@@ -1,331 +1,199 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="description" content="Ryan Krumbholz - Personal Portfolio">
-    <meta name="keywords" content="Portfolio, Personal, Ryan Krumbholz, Ryan, Krumbholz">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Title -->
     <title>Ryan Krumbholz</title>
-    <!-- Favicon -->
-    <link href="img/favicon.png" type="image/png" rel="icon">
+    <meta name="description" content=" Hello! I'm Ryan, a software engineer based in the Seattle area. My areas of interest and expertise are in system design,
+    backend services, and performance optimization. I'm currently employed at InfoTrust, an end-to-end digital analytics consulting,
+    data governance, and technology company. Before starting my career, I studied Computer Science at New York University.
+    I am most passionate about bridging the gaps in our society to make STEM a more diverse and inclusive field. When I'm
+    not at my computer coding or playing video games, you can usually find me on the field or court, playing ultimate frisbee or basketball." />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>Ryan Krumbholz</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
 
-    <!-- All CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="css/ionicons.css" rel="stylesheet" type="text/css">
-    <link href="css/mobiriseicons.css" rel="stylesheet" type="text/css">
-    <link href="css/owl.carousel.min.css" rel="stylesheet" type="text/css">
-    <link href="css/splitting.css" rel="stylesheet" type="text/css">
-    <link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
-    <link href="css/main.css" rel="stylesheet" type="text/css">
-    <link href="css/responsive.css" rel="stylesheet" type="text/css">
-</head>
+    <link href="favicon.png" type="image/png" rel="icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Raleway:wght@700&display=swap" rel="stylesheet"></head>
 
-<body id="top" data-spy="scroll" data-target="#menu_items">
-    <!--[if lte IE 9]>
-        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-    <![endif]-->
-
-    <!--  start page loader  -->
-    <div id="preloader">
-        <div class="scroll-static"></div>
-    </div>
-    <!--  end page loader  -->
-
-    <!-- start landing wrapper  -->
-    <div id="particles-js" class="landing_wrapper no-bg-img">
-        <!-- start header  -->
-        <header>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 col-8">
-                        <div class="logo">
-
-                        </div>
-                    </div>
-                    <div class="col-md-9 col-4">
-                        <ul id="menu_items" class="menu_items">
-                            <li class="nav-item">
-                                <a href="#top" class="active menu_item nav-link slide-horizontal" data-splitting>Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="/assets/Software_Engineering_Resume.pdf" class="nav-link  slide-horizontal" data-splitting>Resume</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#about" class="menu_item nav-link slide-horizontal" data-splitting>Skills</a>
-                            </li>
-				
-			    <li class="nav-item">
-                                <a href="#experience" class="menu_item nav-link slide-horizontal" data-splitting>Experiences</a>
-                            </li>
-                            
-                            <li class="nav-item">
-                                <a href="#works" class="menu_item nav-link slide-horizontal" data-splitting>Projects</a>
-                            </li>
-                           c
-                            <li class="nav-item">
-                                <a href="#contact" class="menu_item nav-link slide-horizontal" data-splitting>Contact</a>
-                            </li>
-                        </ul>
-                        <!-- responsive menu btn -->
-                        <div class="nav-btn">
-                            <span class="ion-android-menu"></span>
-                        </div>
-                    </div>
-                </div>
+<body>
+    <!-- Header Start -->
+    <header>
+        <div class="head">
+            <div id="name">
+                <h1>Ryan Krumbholz</h1>
+                <h3>Software Engineer</h3>
             </div>
-        </header>
-        <!-- end header  -->
-        <!-- start home wrapper -->
-        <div class="home_wrapper">
-            <!-- start landing content -->
-            <div class="landing_content text-center">
-                <div class="container">
-                    <div class="row">
-                        <div class="col text-white cd-intro">
-                            <h5 class="title-slide-in" data-splitting>Hi there, I'm</h5>
-                            <h1 class="title-slide-in" data-splitting>Ryan Krumbholz</h1>
-                            <h4 class="title-slide-in" data-splitting>Software Engineer</h4>
-                            <h5>I make cool things for the web.</h5>
-                            <!-- start social links -->
-                            <!-- end social links -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- end landing content -->
-        </div>
-        <!-- end home wrapper -->
-    </div>
-    <!-- end landing wrapper  -->
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <!-- start about wrapper -->
-                <div id="about" class="about_wrapper">
-                    <div class="about">
-                        <div class="row justify-content-center align-items-center">
-                                <!-- start about details -->
-                                <div class="about_info">
-                                    <div class="text-center">
-                                        <h2 class="section_title">Skills</h2>
-                                    </div>
-                                    <img class="zigzag" src="img/zigzag.svg" alt="">
-                                    <div class="skills">
-                                        <ul>
-                                            <li>
-                                                Javascript
-                                            </li>
-                                            <li>
-                                                Python
-                                            </li>
-                                            <li>
-                                                Java
-                                            </li>
-                                            <li>
-                                                C#
-                                            </li>
-                                            <li>
-                                                HTML/CSS
-                                            </li>
-                                        </ul>
-                                        <ul>
-                                            <li>
-                                                React
-                                            </li>
-                                            <li>
-                                                NodeJS
-                                            </li>
-                                            <li>
-                                                Redux
-                                            </li>
-                                            <li>
-                                                PostgreSQL
-                                            </li>
-                                            <li>
-                                                Git
-                                            </li>
-                                        </ul>
-                                        <ul>
-                                            <li>
-                                                Linux
-                                            </li>
-                                            <li>
-                                                MongoDB
-                                            </li>
-                                            <li>
-                                                AWS
-                                            </li>
-                                            <li>
-                                                Virtual Machines
-                                            </li>
-                                            <li>
-                                                PWAs
-                                            </li>
-                                        </ul>
-                                    </div>
-
-                                <!-- end about details -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- end about wrapper -->
-		    <div id="experience" class="about_wrapper">
-                    <div class="about">
-                        <div class="row justify-content-center align-items-center">
-                                <!-- start about details -->
-                                <div class="about_info">
-                                    <div class="text-center">
-                                        <h2 class="section_title">Experiences</h2>
-                                    </div>
-                                    <div>
-                                        <h3>Computer Science TA</h3>
-                                        <h5>
-                                            Seattle Central College, Seattle, Wa, 2018
-                                        </h5>
-                                        <p>
-                                            Assisted in teaching the fundamentals of computer science and OOP.
-                                            <br/>
-                                            Responsibilities: Reinforce fundamentals of programming with students that needed assistance, assist students via email, and occasionally
-                                            <br/>
-                                            lecture about the fundamentals of programming.
-                                        </p>
-                                    </div>
-
-
-                                <!-- end about details -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- start work wrapper -->
-                <div id="works" class="work_wrapper">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-10">
-                            <!-- section title -->
-                            <div class="text-center">
-                                <h2 class="section_title">Projects</h2>
-                            </div>
-							
-							<!-- work filter start -->
-							<div class="row no-gutters">
-								<div class="col-12">
-								</div>
-							</div>
-							<!-- work filter end -->
-							
-                            <div class="row works">
-                                <!-- work single item  -->
-                                <div class="col-lg-4 col-md-6 col-sm-6 uiux">
-                                    <div class="work_single_item">
-                                        <img class="img-fluid" src="img/work_01.png" alt="">
-                                        <div class="work_info">
-                                            <h6 title="Expensey">Expensey</h6>
-                                            <p>2020</p>
-                                            <a class="ajax-popup-link" href="./work-details-1.html"><span class="ion-android-expand"></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 col-sm-6 web">
-                                    <div class="work_single_item">
-                                        <img class="img-fluid" src="img/work_04.png" alt="">
-                                        <div class="work_info">
-                                            <h6 title="Tweet Tracker Bot">Tweet Tracker Bot</h6>
-                                            <p>2019</p>
-                                            <a class="ajax-popup-link" href="./work-details-4.html"><span class="ion-android-expand"></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- work single item  -->
-                                <!-- work single item  -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- end work wrapper -->
-                 <!-- start about wrapper -->
-                 
-                <!-- end about wrapper -->
-                <!-- start contact wrapper -->
-                <div id="contact" class="contact_wrapper">
-                    <div class="text-center">
-                        <h2 class="section_title">Contact</h2>
-                    </div>
-                    <div class="row justify-content-center">
-                        <!-- start contact info ( email - phone) -->
-                        <div class="col-lg-3 col-md-12">
-                            <div class="contact_item">
-                                <h5>Phone</h5>
-                                <p>+1-202-251-0994</p>
-                            </div>
-                            <div class="contact_item">
-                                <h5>Email</h5>
-                                <p>krumbholz98@gmail.com</p>
-                            </div>
-                        </div>
-                        <!-- end contact info ( email - phone) -->
-                        <!-- start contact form -->
-                        <div class="col-lg-7 col-md-12">
-                            <form id="contact-form" name="contact" method="POST" data-netlify="true">
-                                <div class="row">
-                                    <div class="col">
-                                        <p class="form-message"></p>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-5">
-                                        <!-- input field for NAME -->
-                                        <input class="input_field required" type="text" name="name" placeholder="Name">
-                                        <!-- input field for EMAIL -->
-                                        <input class="input_field required" type="email" name="email" placeholder="Email">
-                                    </div>
-                                    <div class="col-md-7">
-                                        <!-- input field for MESSAGE -->
-                                        <textarea class="input_field required" name="message" placeholder="Tell Me About Your Query."></textarea>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12 text-center">
-                                        <!-- button for MESSAGE-SEND -->
-                                        <button class="button slide-vertical" type="submit" >send message</button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                        <!-- end contact form -->
-                    </div>
-                </div>
-                <!-- end contact wrapper -->
-                <!-- start footer wrapper -->
-                <footer>
-                    <a href="#top" class="go_top">
-                        <i class="ion-ios-arrow-thin-up"></i>
-                    </a>
-                    <!-- start social links -->
-                    <ul class="social_links">
-                        <li><a href="https://github.com/ryanKrumbholz"><span class="ion-social-github-outline"></span></a></li>
-                        <li><a href="https://www.linkedin.com/in/ryankrumbholz/"><span class="ion-social-linkedin"></span></a></li>
-                    </ul>
-                </footer>
-                <!-- end footer wrapper -->
+            <div>
+                <ul id="nav">
+                    <li>
+                        <a class="nav-link" href="/assets/Software_Engineering_Resume.pdf">Resume</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="https://github.com/ryanKrumbholz">GitHub</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="https://www.linkedin.com/in/ryankrumbholz/">Linkedin</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
             </div>
         </div>
+    </header>
+    <!-- Header End -->
+
+    <div class="sections">
+        <!-- About Start -->
+        
+        <div class="section" id="about">
+            <h1>About</h1>
+            <p>
+                Hello! I'm Ryan, a software engineer based in the Seattle area. My areas of interest and expertise are in system design,
+                backend services, and performance optimization. I'm currently employed at InfoTrust, an end-to-end digital analytics consulting,
+                data governance, and technology company. Before starting my career, I studied Computer Science at New York University.
+                I am most passionate about bridging the gaps in our society to make STEM a more diverse and inclusive field. When I'm
+                not at my computer coding or playing video games, you can usually find me on the field or court, playing ultimate frisbee or basketball.
+            </p>
+
+            <h2>Skills</h2>
+            <div id="skills">
+                
+                <div class="skil-type">
+                    <h3>Languages</h3>
+                    <p>Javascript/TypeScript, Python, Java, C#, SQL, HTML + CSS</p>
+                </div>
+                
+                <div class="skil-type">
+                    <h3>Frameworks</h3>
+                    <p> React, Vue, Node.js, Express, Redux, Tensorflow</p>
+                </div>
+                
+                <div class="skil-type">
+                    <h3>Tools</h3>
+                    <p> Git, AWS, Google Cloud Platform, Linux, Virtual Machines, PostgreSQL/MySQL, MongoDB, CI/CD</p>
+                </div>
+            </div>
+            
+        </div>
+        <!-- Skills End -->
+
+        <!-- Experience Start -->
+        
+        <div class="section">
+            <h1>Experience</h1>
+            <div class="experience">
+                <h2>InfoTrust</h2>
+                <div class="experience-title-date">
+                    <h3>Software Engineer</h3>
+                    <p>April 2021 - Present</p>
+                </div>
+                <ul>
+                    <li>
+                        Architected, developed, and delivered Node.js solution for Global 100 client that improved performance over
+                        existing solution by ∼ 200x.
+                    </li>
+                    <li>
+                        Improved the performance of an internal web application by 10x through refactoring algorithmic
+                        inefficiencies and SQL queries.
+                    </li>
+                    <li>
+                        Developed micro-services in Node.js for an internal task processing system, leveraging existing services in
+                        the Google Cloud Platform such as App Engine, Cloud Functions, Cloud Run, Cloud Scheduler, and Cloud
+                        Pub/Sub.
+                    </li>
+                    <li>
+                        Developed scripts to automate workflows on various platforms (Google Analytics, Google Tag Manager, etc.)
+                        utilizing the appropriate Google APIs.                        
+                    </li>
+                    <li>
+                        Architected a solution to transform an existing internal automation framework into a micro-service in order
+                        to expedite delivery of a product.                       
+                    </li>
+                </ul>
+            </div>
+
+            <div class="experience">
+                <h2>Seattle Central College</h2>
+                <div class="experience-title-date">
+                    <h3>Computer Science Teaching Assistant</h3>
+                    <p>June 2018 - August 2018</p>
+                </div>
+                <ul>
+                    <li>
+                        Assisted Prof. Clarke Wellman in teaching CSC110, an introductory computer science course.
+                    </li>
+                    <li>
+                        Aided students in understanding the fundamentals of programming in Python.
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Experience End -->
+
+        <!-- Projects Start -->
+        
+        <div class="section">
+            <h1>Projects</h1>
+            <div class="project">
+                <div class="project-title-date">
+                    <a href="https://github.com/ryanKrumbholz/Expensey"><h2>Expensey</h2></a>
+                    <p>January 2020</p>
+                </div>
+                <ul>
+                    <li>
+                        Created single page web application front-end with React.
+                    </li>
+                    <li>
+                        Developed REST API that returns data from MongoDB using Node.js, Express, & Javascript.
+                    </li>
+                    <li>
+                        Implemented dark mode utilizing React state management.
+                    </li>
+                    <li>
+                        Deployed REST API to AWS.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="project">
+                <div class="project-title-date">
+                    <a href="https://github.com/ryanKrumbholz/trump-twitter-tracker"><h2>Tweet Tracker Bot</h2></a>
+                    <p>June 2018 - August 2018</p>
+                </div>
+                <ul>
+                    <li>
+                        Utilized Twitter API to track the number of times a user tweets hourly/daily using Python.
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+        <!-- Projects End -->
+
+        <!-- Contact Start -->
+        
+        <div class="section">
+            <h1>Contact</h1>
+            <p>If you'd like to reach me, please email me! My email is <a href="mailto:ryan.krumbholz@gmail.com">ryan.krumbholz@gmail.com</a>. I will try to get back to you within 48 hours!</p>
+        </div>
+        <!-- Contact End -->
     </div>
+    
 
-
-    <!-- ========  All JS Here ========  -->
-    <script src="js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="js/ajax-mail.js"></script>
-    <script src="js/plugins.js"></script>
-    <!-- particles.min.js (only for index-2.html page) -->
-    <script src="js/particles.min.js"></script>
-    <script src="js/main.js"></script>
+    <!-- Footer Start -->
+    <div class="footer">
+        <a href="https://github.com/ryanKrumbholz/ryankrumbholz.github.io"><p>Ryan Krumbholz 2021</p></a>
+    </div>
+    <!-- Footer End -->
 </body>
 
 </html>
